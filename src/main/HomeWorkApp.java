@@ -1,5 +1,5 @@
 package main;
-
+//first homeWorkApp
 public class HomeWorkApp {
     public static void main(String[] args) {
         printThreeWords();
@@ -32,7 +32,6 @@ public class HomeWorkApp {
             System.out.println("Зеленый");
         }
     }
-
     static void compareNumbers() {
         int a = -50;
         int b = -102;

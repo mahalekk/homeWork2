@@ -2,7 +2,7 @@ package main.HomeWorkLesson2;
 
 public class HomeWorkLesson2 {
     public static void main(String[] args) {
-        
+
         System.out.println("Проверка метода isSumIncluded со следующими числами 5 и 4; 5 и 6; 11 и 20; 11 и 9");
 
         System.out.println(isSumIncluded(5,4));
@@ -17,7 +17,7 @@ public class HomeWorkLesson2 {
         isNumPositive(0);
         System.out.println();
 
-        System.out.println("Проверка метода isNumPositive со следующими числами 5 , -10, 0");
+        System.out.println("Проверка метода isNumPositiveBoolean со следующими числами 5 , -10, 0");
         System.out.println(isNumPositiveBoolean(5));
         System.out.println(isNumPositiveBoolean(-10));
         System.out.println(isNumPositiveBoolean(0));

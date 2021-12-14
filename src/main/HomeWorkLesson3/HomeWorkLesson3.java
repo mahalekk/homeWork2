@@ -68,8 +68,8 @@ public class HomeWorkLesson3 {
         //Создаем и заполняем одномерный массив размером 10 случайными целыми числами от 0 до 100
         int[] array5 = new int[10];
         for (int i = 0; i < array5.length; i++) {
-           array5[i] = (int) (Math.random() * 101);
-            }
+            array5[i] = (int) (Math.random() * 101);
+        }
 
         int min = 99;//Циклы нахождения максимального и минимального элемента
         int max = 0;
@@ -142,9 +142,9 @@ public class HomeWorkLesson3 {
             for (int j = 0; j < array.length - 1; j++) {//перебор по элементам массива
                 array[j] = array[j + 1];
             }
-           array[array.length - 1]= res;
+            array[array.length - 1]= res;
         }
         return array;
 
-            }
     }
+}

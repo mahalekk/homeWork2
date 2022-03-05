@@ -37,7 +37,7 @@ public class TicTocToe {
             if (checkingIsDraw()) {
                 break;
             }
-        } while (isPlayAnotherGame());
+        } while (true);
         endOfGame();
     }
 
@@ -373,13 +373,13 @@ public class TicTocToe {
         return false;
     }
 
-    private static boolean isPlayAnotherGame() {
-        System.out.println("Желаете продолжить? yes/no");
-        return switch (ROW.next()) {
-            case "yes", "Yes", "Да", "да" -> true;
-            default -> false;
-        };
-    }
+//    private static boolean isPlayAnotherGame() {
+////        System.out.println("Желаете продолжить? yes/no");
+////        return switch (ROW.next()) {
+////            case "yes", "Yes", "Да", "да" -> true;
+////            default -> false;
+////        };
+//    }
 
     private static void endOfGame() {
         ROW.close();

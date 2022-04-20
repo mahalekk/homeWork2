@@ -1,4 +1,4 @@
-package main.HomeWorkLesson3;
+package src.main.HomeWorkLesson3;
 
 import java.util.Arrays;
 
@@ -99,7 +99,7 @@ public class HomeWorkLesson3 {
 
         //Пункт 8 задания
         int[] array10 = {3, 5, 6, 1};
-        System.out.println(Arrays.toString(SliceIndexes(array10,4)));
+        System.out.println(Arrays.toString(sliceIndexes(array6,4)));
 
     }
     public static void printArr(int[][] arr) {//Метод для удобочитаемого вида вывода двумерного массива
@@ -136,7 +136,7 @@ public class HomeWorkLesson3 {
         return false;
     }
 
-    public static int[] SliceIndexes(int[] array, int n) {//Метод согласно задания 8 сдвиг влево
+    public static int[] sliceIndexes(int[] array, int n) {//Метод согласно задания 8 сдвиг влево
         for (int i = 0; i < n; i++) {//перебор по количеству символов сдвига
             int res = array[0];
             for (int j = 0; j < array.length - 1; j++) {//перебор по элементам массива
